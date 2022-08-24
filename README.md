@@ -1,6 +1,8 @@
 # min-CVaR
 Real-time risk management with PyPortfolioOpt min_cvar method using neural networks
 
+This repository shows neural networks approach on risk management. It presents methodology of creating a neural network for the use of real-time risk management, starting from preprocessing data, portfolio optimization and ending on predictions. It is worth to notice that this repository does not focus on the quality of predictions but on the methodology itself.
+
 ## Data preprocessing
 Our data contains daily prices of 4 stocks over the late 2017-2022 period saved in OHLCV format. All of 4 stocks have been chosen by the greatest market cap on 13.07.2022 (over 30 billion PLN). Stocks are quoted on WSE (Warsaw Stock Exchange) and price data comes from [stooq.pl](https://stooq.pl/)
 
