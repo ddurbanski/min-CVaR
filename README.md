@@ -47,7 +47,7 @@ asset_price.to_csv("asset_price.csv")
 ```
 
 ## Portfolio optimization
-To deal with optimization problem we will use min_cvar() method provided by the EfficientCVaR class which is a part of PyPortfolioOpt library, 
+To deal with optimization problem we will use min_cvar() method provided by the EfficientCVaR class which is a part of PyPortfolioOpt library, see documentation [here](https://pyportfolioopt.readthedocs.io/en/latest/GeneralEfficientFrontier.html)
 
 ```python
 import pandas as pd
