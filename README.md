@@ -100,6 +100,8 @@ for x in min_cvar_weights_dict.keys():
 ```
 
 ## Weights predictions with neural network
+A 7-day window of asset prices provides data to create a time series of minimum CVaR portfolios using General Efficient Frontier. These minimum CVaR portfolio weights are the output values for a neural network. The input is the matrix of weekly average asset returns, corresponding to each efficient portfolio.
+
 
 ```python
 # create input and output datasets for training a neural network 
