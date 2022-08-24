@@ -2,7 +2,7 @@
 Real-time risk management with PyPortfolioOpt min_cvar method using neural networks
 
 ## Data preprocessing
-Our data contains daily prices of 4 stocks over the late 2017-2022 period saved in OHLCV format. All of 4 stocks have been chosen by the greatest capitalization on 13.07.2022 date (over 30 mld PLN). Stocks are noted on WSE and price data comes from [stooq.pl](https://stooq.pl/)
+Our data contains daily prices of 4 stocks over the late 2017-2022 period saved in OHLCV format. All of 4 stocks have been chosen by the greatest market cap on 13.07.2022 (over 30 billion PLN). Stocks are quoted on WSE (Warsaw Stock Exchange) and price data comes from [stooq.pl](https://stooq.pl/)
 
 ```python
 import pandas as pd
